@@ -1,0 +1,29 @@
+.tile.matched {
+    background-color: #c8e6c9; 
+  }
+
+  .tile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+  .tile {
+    width: 80px; 
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px; 
+    background-color: #f0f0f0;
+    border: 3px solid black; 
+    cursor: pointer;
+    user-select: none; 
+  }
+  
+  .flipped, .matched {
+    background-color: #99ccff; 
+  }
+  
+  

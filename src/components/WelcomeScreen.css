@@ -1,0 +1,9 @@
+.borderwelcome{
+    border: 3px solid black;
+}
+
+.buttons{
+    background-color: blue;
+    color:white;
+    width:100px;
+}
